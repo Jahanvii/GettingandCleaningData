@@ -64,7 +64,7 @@ names(TidyData)<-gsub("-freq()", "Frequency", names(TidyData), ignore.case = TRU
 names(TidyData)<-gsub("angle", "Angle", names(TidyData))
 names(TidyData)<-gsub("gravity", "Gravity", names(TidyData))
 
-#Step-9  From the data set in step 8, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+#Step-9  From the data set in step 6, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 FinalData <- TidyData %>%
   group_by(subject, activity) %>%
