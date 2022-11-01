@@ -1,4 +1,4 @@
-The run_analysis.R script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.
+The run_analysis.R script performs the data preparation followed various steps required as described in the course project’s definition.
 
 ### 1. Download the dataset
 <ul>Dataset downloaded and extracted under the folder called UCI HAR Dataset</ul>
@@ -21,19 +21,19 @@ contains recorded features train data</ul>
 <ul>y_train <- test/y_train.txt : 7352 rows, 1 columns<br>
 contains train data of activities’code labels</ul>
 
-### 3. Merges the training and the test sets to create one data set
+### 3. Merge the training and the test sets to create one data set
 <ul>X (10299 rows, 561 columns) is created by merging x_train and x_test using rbind() function</ul>
 <ul>Y (10299 rows, 1 column) is created by merging y_train and y_test using rbind() function</ul>
 <ul>Subject (10299 rows, 1 column) is created by merging subject_train and subject_test using rbind() function</ul>
 <ul>Merged_Data (10299 rows, 563 column) is created by merging Subject, Y and X using cbind() function</ul>
 
-### 4. Extracts only the measurements on the mean and standard deviation for each measurement
+### 4. Extract only the measurements on the mean and standard deviation for each measurement
 <ul>TidyData (10299 rows, 88 columns) is created by subsetting Merged_Data, selecting only columns: subject, code and the measurements on the mean and standard deviation (std) for each measurement</ul>
 
-### 5. Uses descriptive activity names to name the activities in the data set
+### 5. Use descriptive activity names to name the activities in the data set
 <ul>Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the activities variable</ul>
 
-### 6. Appropriately labels the data set with descriptive variable names
+### 6. Give appropriate labels the data set with descriptive variable names
 <ul>code column in TidyData renamed into activities</ul>
 <ul>All Acc in column’s name replaced by Accelerometer</ul>
 <ul>All Gyro in column’s name replaced by Gyroscope</ul>
