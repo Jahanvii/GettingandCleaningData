@@ -10,4 +10,4 @@ Goal | Item | Link to Item
 --- | --- | ---
 Cookbook | CodeBook.md |  [Repo Link](https://github.com/Jahanvii/Gettingandcleaningdata/blob/f1ee38aa385de49dd8cf84939158aa80b5b377b2/CodeBook.md "CodeBook.md")
 run_analysis.r | Analysis File |  [Repo Link](https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/README.md "README.md")
-Final Date | Final Data File |  [Repo Link]( "FINALDATA.txt")
+Final Date | Final Data File |  [Repo Link](https://github.com/Jahanvii/Gettingandcleaningdata/blob/main/FinalData.txt "FINALDATA.txt")
